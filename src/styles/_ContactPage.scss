@@ -1,0 +1,21 @@
+.link--icon {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.link--text {
+  color: $color-black;
+  font-size: 1.8rem;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.link--wrapper {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}

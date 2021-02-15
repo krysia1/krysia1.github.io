@@ -1,0 +1,92 @@
+[class^="link-home-page--"]{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-family: 'Silom', sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: $color-black;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 10rem;
+  text-decoration: none;
+}
+
+.link-home-page--pink {
+  border: 2px solid $color-pink-primary;
+  background-color: $color-pink-primary;
+
+  
+  background-image: linear-gradient(to bottom, $color-white 50%, $color-pink-primary 50%);
+  background-size: 100% 130%;
+  background-position: top;
+
+  transition: all 0.5s ease-out;
+
+  div {
+    transition: all 0s ease;
+  }
+
+  &:hover {
+    color: $color-white;
+    background-size: 100% 200%;
+    background-position: bottom;
+
+    div {
+      transition: all 0s ease;
+    }
+  }
+}
+
+.link-home-page--yellow {
+  border: 2px solid $color-yellow-primary;
+  background-color: $color-yellow-primary;
+
+  background-image: linear-gradient(to bottom, $color-white 50%, $color-yellow-primary 50%);
+  background-size: 100% 100%;
+  background-position: bottom;
+
+  transition: all 0.5s ease-out;
+
+  div {
+    transition: color 0s ease;
+  }
+
+  &:hover {
+    color: $color-white;
+    background-size: 100% 300%;
+    background-position: bottom;
+
+    div {
+      transition: color 0s ease;
+    }
+  }
+}
+
+
+.link-home-page--blue {
+  border: 2px solid $color-blue-primary;
+  background-color: $color-blue-primary;
+
+  background-image: linear-gradient(to bottom, $color-white 50%, $color-blue-primary 50%);
+  background-size: 100% 180%;
+  background-position: top;
+
+  transition: all 0.5s ease-out;
+
+  div {
+    transition: all 0s ease;
+  }
+
+  &:hover {
+    color: $color-white;
+    background-size: 100% 300%;
+    background-position: bottom;
+
+    div {
+      transition: all 0s ease;
+    }
+  }
+}
+
